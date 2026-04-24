@@ -17,7 +17,7 @@ const D365List = () => {
       setWarning("Please enter a list before converting.");
       setTimeout(() => setWarning(""), 3000);      
     } else {
-      setOutput(`${items.join(",\n")},`);
+      setOutput(`${items.join(",")},`);
     }
   };
 

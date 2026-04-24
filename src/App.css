@@ -40,3 +40,167 @@
 .read-the-docs {
   color: #888;
 }
+
+.tool-card {
+  transition: all 0.2s ease-in-out;
+  border-radius: 12px;
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Light mode link */
+.tool-card a {
+  color: #212529;
+}
+
+/* Dark mode support */
+.bg-dark .tool-card {
+  background-color: #2b2b2b;
+}
+
+.bg-dark .tool-card a {
+  color: #f8f9fa;
+}
+
+.bg-dark .text-muted {
+  color: #adb5bd !important;
+}
+
+.home-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(13, 110, 253, 0.10), transparent 30%),
+    radial-gradient(circle at top right, rgba(111, 66, 193, 0.10), transparent 30%),
+    linear-gradient(180deg, #f8f9fa 0%, #eef2f7 100%);
+}
+
+.dashboard-hero {
+  border-radius: 22px;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0d6efd 0%, #6f42c1 100%);
+  color: white;
+}
+
+.hero-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+.hero-subtext {
+  font-size: 1rem;
+  opacity: 0.9;
+  max-width: 700px;
+}
+
+.section-accent {
+  width: 10px;
+  height: 42px;
+  border-radius: 999px;
+}
+
+.section-sql {
+  background: linear-gradient(180deg, #0d6efd, #3d8bfd);
+}
+
+.section-general {
+  background: linear-gradient(180deg, #198754, #20c997);
+}
+
+.section-xml {
+  background: linear-gradient(180deg, #6f42c1, #d63384);
+}
+
+.section-text {
+  background: linear-gradient(180deg, #fd7e14, #ffc107);
+}
+
+.section-badge {
+  background-color: #ffffff;
+  color: #495057;
+  border: 1px solid #dee2e6;
+  font-weight: 600;
+  padding: 0.55rem 0.9rem;
+}
+
+.tool-card-modern {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.tool-card-modern:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.14);
+}
+
+.tool-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.15rem;
+  background: linear-gradient(135deg, #0d6efd, #6f42c1);
+  color: white;
+}
+
+.tool-desc {
+  color: #6c757d;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.tool-link {
+  color: #0d6efd;
+}
+
+.tool-link:hover {
+  color: #0a58ca;
+}
+
+/* Dark mode support */
+.bg-dark .home-page {
+  background:
+    radial-gradient(circle at top left, rgba(13, 110, 253, 0.16), transparent 30%),
+    radial-gradient(circle at top right, rgba(111, 66, 193, 0.16), transparent 30%),
+    linear-gradient(180deg, #111827 0%, #0f172a 100%);
+}
+
+.bg-dark .dashboard-hero {
+  background: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 100%);
+}
+
+.bg-dark .tool-card-modern {
+  background: rgba(31, 41, 55, 0.82);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.bg-dark .tool-card-modern .card-title,
+.bg-dark .tool-link,
+.bg-dark h4,
+.bg-dark h1,
+.bg-dark .hero-eyebrow,
+.bg-dark .hero-subtext {
+  color: #f8fafc;
+}
+
+.bg-dark .tool-desc {
+  color: #cbd5e1;
+}
+
+.bg-dark .section-badge {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
