@@ -21,6 +21,7 @@ const toolSections = [
       { to: "/todo", title: "Todo App", desc: "Track quick tasks" },
       { to: "/case", title: "Case Converter", desc: "Convert text casing instantly" },
       { to: "/d365list", title: "D365 List", desc: "Work with D365 values" },
+      { to: "/RfSettingsGuide", title: "RF Settings" , desc: "Setup Guide for VM1"},
     ],
   },
   {

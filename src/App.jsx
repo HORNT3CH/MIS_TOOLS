@@ -27,6 +27,7 @@ import XmlValidator from "./components/XmlValidator";
 import SearchXml from "./components/SearchXML";
 import NotepadSearch from "./components/NotepadSearch";
 import XmlItemTotals from "./components/XmlItemTotals";
+import RfSettingsGuide from "./components/RfSettingsGuide";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
@@ -98,6 +99,9 @@ const App = () => {
                   <NavDropdown.Item as={Link} to="/d365list">
                     D365 List
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/rfsettingsguide">
+                    RF Settings Guide
+                  </NavDropdown.Item>
                 </NavDropdown>
 
                 {/* XML TOOLS */}
@@ -160,6 +164,7 @@ const App = () => {
             <Route path="/notepadsearch" element={<NotepadSearch />} />
             <Route path="/xmlvalidator" element={<XmlValidator />} />
             <Route path="/xmlitemtotals" element={<XmlItemTotals />} />
+            <Route path="/rfsettingsguide" element={<RfSettingsGuide />} />
           </Routes>
         </Container>
       </div>
